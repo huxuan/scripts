@@ -1,6 +1,6 @@
 #!/bin/bash
 # +-----------------------------------------------------------------------------
-# | File: mongodb-ubuntu-debain
+# | File: mongodb-ubuntu-debian
 # | Author: huxuan
 # | E-mail: i(at)huxuan.org
 # | Created: 2012-04-29
