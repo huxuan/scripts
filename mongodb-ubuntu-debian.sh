@@ -1,12 +1,12 @@
 #!/bin/bash
 # +-----------------------------------------------------------------------------
-# | File: mongodb-ubuntu-debain
+# | File: mongodb-ubuntu-debian
 # | Author: huxuan
 # | E-mail: i(at)huxuan.org
 # | Created: 2012-04-29
 # | Last modified: 2012-04-29
 # | Description:
-# |     MongoDB installation for Ubuntu and Debain like *nix
+# |     MongoDB installation for Ubuntu and Debian like *nix
 # |
 # | Copyrgiht (c) 2012 by huxuan. All rights reserved.
 # | License GPLv3
