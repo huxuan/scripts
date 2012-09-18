@@ -17,7 +17,7 @@
 # | License GPLv3
 # +-----------------------------------------------------------------------------
 
-# Check whether use root
+echo Check whether use root
 if [ $(id -u) != "0" ]; then
     echo "Error: You must be root to run this script, use sudo sh $0"
     exit 1
