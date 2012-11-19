@@ -13,12 +13,12 @@
 # +-----------------------------------------------------------------------------
 
 # Add GPG key
-apt-key adv --keyserver keyserver.ubuntu.com --recv 7F0CEB10
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv 7F0CEB10
 
 # Add source list
 echo "deb http://downloads-distro.mongodb.org/repo/debian-sysvinit dist 10gen" \
-    > /etc/apt/sources.list.d/mongodb.list
+    | sudo tee /etc/apt/sources.list.d/mongodb.list
 
 # update and install
-apt-get update
-apt-get install mongodb-10gen
+sudo apt-get update
+sudo apt-get install mongodb-10gen
