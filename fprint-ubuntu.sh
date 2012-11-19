@@ -13,10 +13,10 @@
 # +-----------------------------------------------------------------------------
 
 # add ppa
-add-apt-repository ppa:fingerprint/fprint
+sudo add-apt-repository ppa:fingerprint/fprint
 
 # update
-apt-get update
+sudo apt-get update
 
 # install
 sudo apt-get install libfprint0 fprint-demo libpam-fprintd gksu-polkit
