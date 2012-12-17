@@ -19,6 +19,10 @@ Server1=8.8.8.8
 Server2=8.8.4.4
 
 case "$1" in
+  # Google
+  g)
+    DNS=8.8.8.8
+    ;;
   # Telecom
   t)
     DNS=202.103.24.68
